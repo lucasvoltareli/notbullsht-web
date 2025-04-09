@@ -27,8 +27,32 @@ O projeto inclui páginas com:
 
 ---
 
+## 🎯 Objetivo do projeto
+
+Esse projeto foi feito com fins educacionais, para praticar:
+
+- Estruturação de páginas com HTML
+- Estilização com CSS (incluindo responsividade)
+- Aplicação básica de JavaScript
+
+---
+
+## 📄 Licença
+
+Código aberto sob licença MIT.  
+Você pode utilizar este modelo como base para outros projetos.
+
+---
+
 ## 📁 Como visualizar
 
 1. Clone o repositório:
 ```bash
 git clone https://github.com/lucasvoltareli/notbullsht-web.git
+
+---
+
+## 👨‍💻 Desenvolvido por
+
+[Lucas Voltareli](https://github.com/lucasvoltareli)
+
