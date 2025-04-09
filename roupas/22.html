@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../style/roupas.css" />
+    <link rel="shortcut icon" type="image/png" href="../images/logo.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Longsleeve Stussy - NOTBULLSHT</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+
+          <div class="nav-menus">
+            <ul class="nav-list">
+              <li><a href="/index.html" class="menu">Página Inicial</a></li>
+              <li><a href="/products.html" class="menu">Produtos</a></li>
+              <li><a href="/marcas.html" class="menu">Marcas</a></li>
+              <!-- <li><a href="sobre-nos.html" class="menu">Sobre Nós</a></li> -->
+            </ul>
+          </div>
+        </div>
+
+        <a class="logo" href="/index.html"
+          ><img src="../images/logo_png.png" alt="Leaff"
+        /></a>
+
+        <div class="shortcuts">
+          <div class="nav-icons">
+            <div class="search-container">
+              <div class="icon">
+                <img src="../icons/search.png" alt="" />
+              </div>
+              <div class="search">
+                <input
+                  type="text"
+                  placeholder="Pesquisar..."
+                  id="searchInput"
+                />
+                <div class="close-btn">✖</div>
+              </div>
+            </div>
+            <a class="login" href="login.html"
+              ><img src="../icons/login.png" alt="Login"
+            /></a>
+            <a class="cart" href="cart.html"
+              ><img src="../icons/cart.png" alt="Cart"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section">
+
+      <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="/img-roupas/22.jpg" alt="Product 1"></div>
+            <div class="slide"><img src="/img-roupas/22-1.jpg" alt="Product 2"></div>
+            <div class="slide"><img src="/img-roupas/22-2.jpg" alt="Product 3"></div>
+            <div class="slide"><img src="/img-roupas/22-3.jpg" alt="Product 3"></div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+      <div class="texts">
+      <div class="text-products">
+        <p>Karl Kani Jeans</p>
+      </div>
+
+      <div class="price">
+        <p id="price">R$550</p>
+        <p>em até 3x sem juros </p>
+        <p>PIX ou Cartão de crédito</p>
+      </div>
+
+      <div class="description">
+        <p id="description">Especificações: </p>
+        <p>• Tamanho G/L (78cm X 61cm)</p>
+        <p>• Enviamos para todo o Brasil</p>
+        </div>
+
+        <div class="btn">
+          <button class="buy-buttom">Adicionar ao Carrinho</button>
+          <input type="text" placeholder="Calcular Frete">
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <footer>
+      <p>NOTBULLSHT© - 2024. Todos os direitos reservados</p>
+      <a
+        href="https://www.instagram.com/notbullsht_/"
+        target="_blank"
+        class="insta-icon"
+        ><img src="../icons/instagram (1).png" alt=""
+      /></a>
+    </footer>
+  </body>
+
+  <script src="../js/mobile-navbar.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/buscar.js"></script>
+</html>
