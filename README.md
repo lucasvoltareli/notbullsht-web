@@ -44,15 +44,16 @@ Você pode utilizar este modelo como base para outros projetos.
 
 ---
 
+## 👨‍💻 Desenvolvido por
+
+[Lucas Voltareli](https://github.com/lucasvoltareli)
+
+---
+
 ## 📁 Como visualizar
 
 1. Clone o repositório:
 ```bash
 git clone https://github.com/lucasvoltareli/notbullsht-web.git
 
----
-
-## 👨‍💻 Desenvolvido por
-
-[Lucas Voltareli](https://github.com/lucasvoltareli)
 
